@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(222, 250, 215);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+th {
+    border: 1px double black;
+    color: rgb(0, 148, 99);
+    font-size: 50px;
+}
+
+td {
+    border: 1px solid black;
+    color: rgb(0, 148, 99);
+    font-size: 30px;
+}
+td:nth-child(even) {
+    background-color: chartreuse;
+}
+
+td:nth-child(odd) {
+    background-color: rgb(48, 95, 0);
+}
+#h2 {
+    margin-top: 20px;
+}
+
+#p1 {
+    margin-top: 50px;
+}
+
+.list1, .list2, .list3 {
+    margin: 20px;
+    border: 2px solid rgb(51, 255, 0);
+    width: 150px;
+    font-weight: 400;
+}
+
+.list1:hover {
+    color: rgb(0, 209, 139);
+    transition: 1s;
+}
+
+.list2:hover {
+    color: rgb(0, 209, 139);
+    transition: 1s;
+}
+
+.list3:hover {
+    color: rgb(0, 209, 139);
+    transition: 1s;
+}
+img {
+    border-radius: 10px;
+    width: 400px;
+}
+
+.photocont {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+aside {
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: right;
+    color: rgb(0, 148, 99);
+    border-left: 2px solid rgb(0, 255, 64);
+  }
+
+  li:first-of-type + li {
+    color: red;
+  }
+
+  :root {
+    --white:#f6f6f6;
+    --white:#f6f6f6;
+    --white:#f6f6f6;
+    --white:#f6f6f6;
+  }
